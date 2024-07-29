@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450153CD2C54BC6B00ECD8F4 /* CallSignNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450153C42C54BC6B00ECD8F4 /* CallSignNetworking.framework */; };
+		450153D22C54BC6B00ECD8F4 /* CallSignNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 450153D12C54BC6B00ECD8F4 /* CallSignNetworkingTests.m */; };
+		450153D32C54BC6B00ECD8F4 /* CallSignNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 450153C72C54BC6B00ECD8F4 /* CallSignNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450153DE2C54BC8600ECD8F4 /* CSNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 450153DC2C54BC8600ECD8F4 /* CSNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450153DF2C54BC8600ECD8F4 /* CSNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 450153DD2C54BC8600ECD8F4 /* CSNetworkManager.m */; };
+		450153E22C54BC9A00ECD8F4 /* CSHTTPMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 450153E02C54BC9A00ECD8F4 /* CSHTTPMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450153E32C54BC9A00ECD8F4 /* CSHTTPMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 450153E12C54BC9A00ECD8F4 /* CSHTTPMethod.m */; };
+		450153E62C54BD3000ECD8F4 /* CSAPIRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 450153E42C54BD3000ECD8F4 /* CSAPIRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450153E72C54BD3000ECD8F4 /* CSAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 450153E52C54BD3000ECD8F4 /* CSAPIRequest.m */; };
+		450153EA2C54C0D700ECD8F4 /* CSAPIResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 450153E82C54C0D700ECD8F4 /* CSAPIResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450153EB2C54C0D700ECD8F4 /* CSAPIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 450153E92C54C0D700ECD8F4 /* CSAPIResponse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		450153CE2C54BC6B00ECD8F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450153BB2C54BC6B00ECD8F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450153C32C54BC6B00ECD8F4;
+			remoteInfo = CallSignNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		450153C42C54BC6B00ECD8F4 /* CallSignNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CallSignNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450153C72C54BC6B00ECD8F4 /* CallSignNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallSignNetworking.h; sourceTree = "<group>"; };
+		450153CC2C54BC6B00ECD8F4 /* CallSignNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallSignNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		450153D12C54BC6B00ECD8F4 /* CallSignNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallSignNetworkingTests.m; sourceTree = "<group>"; };
+		450153DC2C54BC8600ECD8F4 /* CSNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSNetworkManager.h; sourceTree = "<group>"; };
+		450153DD2C54BC8600ECD8F4 /* CSNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSNetworkManager.m; sourceTree = "<group>"; };
+		450153E02C54BC9A00ECD8F4 /* CSHTTPMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSHTTPMethod.h; sourceTree = "<group>"; };
+		450153E12C54BC9A00ECD8F4 /* CSHTTPMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSHTTPMethod.m; sourceTree = "<group>"; };
+		450153E42C54BD3000ECD8F4 /* CSAPIRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAPIRequest.h; sourceTree = "<group>"; };
+		450153E52C54BD3000ECD8F4 /* CSAPIRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAPIRequest.m; sourceTree = "<group>"; };
+		450153E82C54C0D700ECD8F4 /* CSAPIResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAPIResponse.h; sourceTree = "<group>"; };
+		450153E92C54C0D700ECD8F4 /* CSAPIResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAPIResponse.m; sourceTree = "<group>"; };
+		450153ED2C54C56500ECD8F4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		450153C12C54BC6B00ECD8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450153C92C54BC6B00ECD8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450153CD2C54BC6B00ECD8F4 /* CallSignNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		450153BA2C54BC6B00ECD8F4 = {
+			isa = PBXGroup;
+			children = (
+				450153C62C54BC6B00ECD8F4 /* CallSignNetworking */,
+				450153D02C54BC6B00ECD8F4 /* CallSignNetworkingTests */,
+				450153C52C54BC6B00ECD8F4 /* Products */,
+				450153EC2C54C56500ECD8F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		450153C52C54BC6B00ECD8F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450153C42C54BC6B00ECD8F4 /* CallSignNetworking.framework */,
+				450153CC2C54BC6B00ECD8F4 /* CallSignNetworkingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450153C62C54BC6B00ECD8F4 /* CallSignNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				450153C72C54BC6B00ECD8F4 /* CallSignNetworking.h */,
+				450153DC2C54BC8600ECD8F4 /* CSNetworkManager.h */,
+				450153DD2C54BC8600ECD8F4 /* CSNetworkManager.m */,
+				450153E82C54C0D700ECD8F4 /* CSAPIResponse.h */,
+				450153E92C54C0D700ECD8F4 /* CSAPIResponse.m */,
+				450153E42C54BD3000ECD8F4 /* CSAPIRequest.h */,
+				450153E52C54BD3000ECD8F4 /* CSAPIRequest.m */,
+				450153E02C54BC9A00ECD8F4 /* CSHTTPMethod.h */,
+				450153E12C54BC9A00ECD8F4 /* CSHTTPMethod.m */,
+			);
+			path = CallSignNetworking;
+			sourceTree = "<group>";
+		};
+		450153D02C54BC6B00ECD8F4 /* CallSignNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				450153D12C54BC6B00ECD8F4 /* CallSignNetworkingTests.m */,
+			);
+			path = CallSignNetworkingTests;
+			sourceTree = "<group>";
+		};
+		450153EC2C54C56500ECD8F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				450153ED2C54C56500ECD8F4 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		450153BF2C54BC6B00ECD8F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450153D32C54BC6B00ECD8F4 /* CallSignNetworking.h in Headers */,
+				450153E62C54BD3000ECD8F4 /* CSAPIRequest.h in Headers */,
+				450153EA2C54C0D700ECD8F4 /* CSAPIResponse.h in Headers */,
+				450153DE2C54BC8600ECD8F4 /* CSNetworkManager.h in Headers */,
+				450153E22C54BC9A00ECD8F4 /* CSHTTPMethod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		450153C32C54BC6B00ECD8F4 /* CallSignNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450153D62C54BC6B00ECD8F4 /* Build configuration list for PBXNativeTarget "CallSignNetworking" */;
+			buildPhases = (
+				450153BF2C54BC6B00ECD8F4 /* Headers */,
+				450153C02C54BC6B00ECD8F4 /* Sources */,
+				450153C12C54BC6B00ECD8F4 /* Frameworks */,
+				450153C22C54BC6B00ECD8F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallSignNetworking;
+			productName = CallSignNetworking;
+			productReference = 450153C42C54BC6B00ECD8F4 /* CallSignNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		450153CB2C54BC6B00ECD8F4 /* CallSignNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450153D92C54BC6B00ECD8F4 /* Build configuration list for PBXNativeTarget "CallSignNetworkingTests" */;
+			buildPhases = (
+				450153C82C54BC6B00ECD8F4 /* Sources */,
+				450153C92C54BC6B00ECD8F4 /* Frameworks */,
+				450153CA2C54BC6B00ECD8F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450153CF2C54BC6B00ECD8F4 /* PBXTargetDependency */,
+			);
+			name = CallSignNetworkingTests;
+			productName = CallSignNetworkingTests;
+			productReference = 450153CC2C54BC6B00ECD8F4 /* CallSignNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		450153BB2C54BC6B00ECD8F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					450153C32C54BC6B00ECD8F4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					450153CB2C54BC6B00ECD8F4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 450153BE2C54BC6B00ECD8F4 /* Build configuration list for PBXProject "CallSignNetworking" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 450153BA2C54BC6B00ECD8F4;
+			productRefGroup = 450153C52C54BC6B00ECD8F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450153C32C54BC6B00ECD8F4 /* CallSignNetworking */,
+				450153CB2C54BC6B00ECD8F4 /* CallSignNetworkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		450153C22C54BC6B00ECD8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450153CA2C54BC6B00ECD8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		450153C02C54BC6B00ECD8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450153E72C54BD3000ECD8F4 /* CSAPIRequest.m in Sources */,
+				450153EB2C54C0D700ECD8F4 /* CSAPIResponse.m in Sources */,
+				450153E32C54BC9A00ECD8F4 /* CSHTTPMethod.m in Sources */,
+				450153DF2C54BC8600ECD8F4 /* CSNetworkManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450153C82C54BC6B00ECD8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450153D22C54BC6B00ECD8F4 /* CallSignNetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		450153CF2C54BC6B00ECD8F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 450153C32C54BC6B00ECD8F4 /* CallSignNetworking */;
+			targetProxy = 450153CE2C54BC6B00ECD8F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		450153D42C54BC6B00ECD8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		450153D52C54BC6B00ECD8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		450153D72C54BC6B00ECD8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UMW3NKDH68;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.subhajit.CallSignNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		450153D82C54BC6B00ECD8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UMW3NKDH68;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.subhajit.CallSignNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		450153DA2C54BC6B00ECD8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMW3NKDH68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.subhajit.CallSignNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		450153DB2C54BC6B00ECD8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMW3NKDH68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.subhajit.CallSignNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		450153BE2C54BC6B00ECD8F4 /* Build configuration list for PBXProject "CallSignNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450153D42C54BC6B00ECD8F4 /* Debug */,
+				450153D52C54BC6B00ECD8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450153D62C54BC6B00ECD8F4 /* Build configuration list for PBXNativeTarget "CallSignNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450153D72C54BC6B00ECD8F4 /* Debug */,
+				450153D82C54BC6B00ECD8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450153D92C54BC6B00ECD8F4 /* Build configuration list for PBXNativeTarget "CallSignNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450153DA2C54BC6B00ECD8F4 /* Debug */,
+				450153DB2C54BC6B00ECD8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 450153BB2C54BC6B00ECD8F4 /* Project object */;
+}
